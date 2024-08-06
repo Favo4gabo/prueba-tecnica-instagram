@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../hoja-de-estilos/FormLogin.module.css";
+import {Link } from 'react-router-dom';
 
 function FormLogin(props) {
    return (
@@ -20,12 +21,12 @@ function FormLogin(props) {
                </div>
 
                <div className={styles.form_button}>
-                  <button className="rounded-4" type="submit">Entrar</button>
+               <button className="rounded-4" type="submit"><Link to="/home-page">Entrar</Link></button>
                </div>
 
                <p className={styles.p_form}>O</p>
 
-               <p className={styles.p_form}>¿No tienes una cuenta? <a href="#">Registrarse</a> </p>
+               <p className={styles.p_form}>¿No tienes una cuenta? <Link to="/form-register">Registrarse</Link> </p>
 
             </form>
          </div>
