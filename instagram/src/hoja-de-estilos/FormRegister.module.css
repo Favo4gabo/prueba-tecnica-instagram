@@ -1,0 +1,45 @@
+:root{
+    --blanco: white;
+    --negro: black;
+    --grisC: #b6b3b3;
+    --azul: #1aa0f3;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10rem;
+    padding: 1.5rem 0.5rem;
+    border: 1px solid gray;
+    background-color: var(--blanco);
+    width: 30rem;
+}
+
+.form_container, .instagram_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_form input{
+    padding: 0.7rem 0.5rem;
+    margin: 0.5rem 0;
+    width: 20rem;
+}
+
+.password_form input{
+    padding: 0.7rem 0.5rem;
+    margin: 0.5rem 0;
+    width: 20rem;
+}
+
+.form_button button{
+    padding: 0.4rem 0.5rem;
+    margin: 0.5rem 0;
+    width: 20rem;
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
+.p_form{
+    text-align: center;
+}
