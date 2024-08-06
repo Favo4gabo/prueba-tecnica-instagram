@@ -12,11 +12,11 @@ function FormLogin(props) {
             <form>
 
                <div className={styles.user_form}>
-                  <input type="text"/>
+                  <input placeholder="user name" type="text"/>
                </div>
 
                <div className={styles.password_form}>
-                  <input type="password"/>
+                  <input placeholder="password" type="password"/>
                </div>
 
                <div className={styles.form_button}>
