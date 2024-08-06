@@ -9,14 +9,22 @@ function FormRegister() {
          </div>
 
          <div className={styles.form_container}>
-            <form>
+            <form>               
 
-               <div className={styles.user_form}>
-                  <input type="text"/>
+               <div className={styles.email_form}>
+                  <input placeholder='email' type="text"/>
+               </div>
+
+               <div className={styles.full_name_form}>
+                  <input placeholder='full name' type="text"/>
+               </div>
+
+               <div className={styles.user_name_form}>
+                  <input placeholder='user name' type="text"/>
                </div>
 
                <div className={styles.password_form}>
-                  <input type="password"/>
+                  <input placeholder='password' type="password"/>
                </div>
 
                <div className={styles.form_button}>
