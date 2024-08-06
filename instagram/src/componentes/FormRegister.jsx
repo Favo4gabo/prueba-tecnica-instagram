@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../hoja-de-estilos/FormRegister.module.css";
+import {Link } from 'react-router-dom';
 
 function FormRegister() {
     return (
@@ -28,12 +29,12 @@ function FormRegister() {
                </div>
 
                <div className={styles.form_button}>
-                  <button className="rounded-4" type="submit">Registrarse</button>
+                  <button className="rounded-4" type="submit"><Link to="/home-page">Registrarse</Link></button>
                </div>
 
                <p className={styles.p_form}>O</p>
 
-               <p className={styles.p_form}>¿Ya tienes una cuenta? <a href="#">Entrar</a></p>
+               <p className={styles.p_form}>¿Ya tienes una cuenta? <Link to="/form-login">Entrar</Link></p>
 
             </form>
          </div>
